@@ -15,6 +15,10 @@
 		2E82E72B1DC332380025444A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E82E7291DC332380025444A /* LaunchScreen.storyboard */; };
 		2E82E7361DC332390025444A /* AddressBookDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E82E7351DC332390025444A /* AddressBookDemoTests.m */; };
 		2E82E7411DC332390025444A /* AddressBookDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E82E7401DC332390025444A /* AddressBookDemoUITests.m */; };
+		2E82E7501DC3326D0025444A /* YZAddressBookHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E82E74F1DC3326D0025444A /* YZAddressBookHelper.m */; };
+		2E82E7531DC332A40025444A /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = 2E82E7511DC332A40025444A /* pinyin.c */; };
+		2E82E7681DC34D680025444A /* InviteFriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E82E7661DC34D680025444A /* InviteFriendCell.m */; };
+		2E82E7691DC34D680025444A /* InviteFriendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E82E7671DC34D680025444A /* InviteFriendCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,13 @@
 		2E82E73C1DC332390025444A /* AddressBookDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressBookDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E82E7401DC332390025444A /* AddressBookDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressBookDemoUITests.m; sourceTree = "<group>"; };
 		2E82E7421DC332390025444A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E82E74E1DC3326D0025444A /* YZAddressBookHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZAddressBookHelper.h; sourceTree = "<group>"; };
+		2E82E74F1DC3326D0025444A /* YZAddressBookHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZAddressBookHelper.m; sourceTree = "<group>"; };
+		2E82E7511DC332A40025444A /* pinyin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pinyin.c; sourceTree = "<group>"; };
+		2E82E7521DC332A40025444A /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
+		2E82E7651DC34D680025444A /* InviteFriendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InviteFriendCell.h; sourceTree = "<group>"; };
+		2E82E7661DC34D680025444A /* InviteFriendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InviteFriendCell.m; sourceTree = "<group>"; };
+		2E82E7671DC34D680025444A /* InviteFriendCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InviteFriendCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +116,13 @@
 				2E82E71F1DC332380025444A /* AppDelegate.m */,
 				2E82E7211DC332380025444A /* ViewController.h */,
 				2E82E7221DC332380025444A /* ViewController.m */,
+				2E82E74E1DC3326D0025444A /* YZAddressBookHelper.h */,
+				2E82E74F1DC3326D0025444A /* YZAddressBookHelper.m */,
+				2E82E7651DC34D680025444A /* InviteFriendCell.h */,
+				2E82E7661DC34D680025444A /* InviteFriendCell.m */,
+				2E82E7671DC34D680025444A /* InviteFriendCell.xib */,
+				2E82E7511DC332A40025444A /* pinyin.c */,
+				2E82E7521DC332A40025444A /* pinyin.h */,
 				2E82E7241DC332380025444A /* Main.storyboard */,
 				2E82E7271DC332380025444A /* Assets.xcassets */,
 				2E82E7291DC332380025444A /* LaunchScreen.storyboard */,
@@ -207,6 +225,7 @@
 				TargetAttributes = {
 					2E82E7171DC332380025444A = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8V83BR7H8L;
 						ProvisioningStyle = Automatic;
 					};
 					2E82E7301DC332390025444A = {
@@ -246,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E82E7691DC34D680025444A /* InviteFriendCell.xib in Resources */,
 				2E82E72B1DC332380025444A /* LaunchScreen.storyboard in Resources */,
 				2E82E7281DC332380025444A /* Assets.xcassets in Resources */,
 				2E82E7261DC332380025444A /* Main.storyboard in Resources */,
@@ -273,6 +293,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E82E7531DC332A40025444A /* pinyin.c in Sources */,
+				2E82E7501DC3326D0025444A /* YZAddressBookHelper.m in Sources */,
+				2E82E7681DC34D680025444A /* InviteFriendCell.m in Sources */,
 				2E82E7231DC332380025444A /* ViewController.m in Sources */,
 				2E82E7201DC332380025444A /* AppDelegate.m in Sources */,
 				2E82E71D1DC332380025444A /* main.m in Sources */,
@@ -422,7 +445,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8V83BR7H8L;
 				INFOPLIST_FILE = AddressBookDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iamnowhere.AddressBookDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,7 +458,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8V83BR7H8L;
 				INFOPLIST_FILE = AddressBookDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iamnowhere.AddressBookDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
